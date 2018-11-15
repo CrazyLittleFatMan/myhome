@@ -1,0 +1,96 @@
+/  根目录
+bin home root boot
+$date 显示日期与时间
+$cal 显示日历
+$bc 显示计算器 $quit 推出计算器
+文件可存取访问的身份：owner，group，other；
+权限：read，write，execute
+$ls -al 查看当前目录下的所有文件及其详细信息
+-rw -r- r-- 文件权限
+文件所有者的权限  文件所属用户的权限  其他人对此文件的权限
+
+【d】目录 【-】文件 【l】连接文件 【b】可存储接口设备 【c】串行端口设备
+改变文件属性和权限
+charg 组名 dirname/filename 改变文件所属用户组
+
+cd 切换目录
+pwd 显示所在目录
+mkdir 【name】
+ls
+ls
+cp 复制
+cp 源文件(source 可以是多个) 目标文件（destination）
+rm 文件名字   删除文件
+rmdir 文件夹名字  删除文件夹
+mv 文件  指定的文件夹路径      移动文件夹
+mv  多个文件   指定文件夹路径
+touch file  修改文件时间 或者创建新的文件
+//文件内容的查询
+cat filename  从第一行开始显示文件内容
+tac  filename  从最后一行开始显示文件内容
+nl filename 显示并输出行号
+more filename 一页一页显示文件内容
+less filename 可翻页按页显示文件
+head filename 显示文件的头几行
+tail filename 显示文件的后几行
+od filename 以二进制读取文件
+
+默认权限与隐藏权限
+umask 查看数字形态的权限
+umask -s 查看符号类型的权限
+若用户创建文件，则默认没有可执行的x权限，创建的目录所有的权限的开放的
+file filename  查看文件类型
+二、命令与文件的查询
+脚本文件名字的查询： which  command
+文件名字的查找
+whereis 
+冒泡：
+public void buul(int [] array){
+	int t=0;
+	for(int i=0;i<array.length-1;i++){
+		for(int j=0;j<array.length-1-i;j++){
+			if(array[j]>array[j+1]){
+				a=array[j]
+				array[j]=array[j+1]
+				array[j+1]=a
+
+			}
+		}
+	}
+}
+选择:
+public void selectSort(int array []){
+	int t=0;
+	for(int i=0;i<array.length-1;i++){
+		int index=i;
+		for(int j=i+1;j<array.length-1;j++){
+			if(array[i]>array[j]){
+				index=j;
+			
+			}
+
+		}
+		if(index!=x){
+			b=array[index];
+			array[index]=array[x]
+			array[x]=b;
+		}
+	}
+}
+插入：将数组分为两部分，将后部分元素逐一与前部分元素比较，
+如果前部分元素比array[i]小，
+就将前部分元素往后移，当没有比array【i】小的元素，即使合理位置
+，在此位置插入array【i】
+public void insertionSort(int array []){
+	int i,j,t=0;
+	for(i=1;i<array.length;i++){
+		if(a[i]<a[i-1])
+	}
+}
+
+
+
+
+
+systemctl stop firewalld.service 
+
